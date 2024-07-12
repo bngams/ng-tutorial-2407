@@ -16,7 +16,7 @@ export class HomeComponent {
 
   housingLocationList: HousingLocation[];
 
-  // instead constructor(private housingService: HousingService) 
+  // instead constructor(private housingService: HousingService)
   // private housingService: HousingService = inject(HousingService);
 
   constructor(private housingService: HousingService) {
